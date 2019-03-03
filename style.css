@@ -1,0 +1,73 @@
+h1 {
+    font-size: 30px;
+}
+
+.h1 {
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.badge {
+    font-size: 25px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.text-image {
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+hr {
+    color: rgb(0, 0, 0)
+}
+
+.img-capture {
+    float: right;
+}
+
+.back1 {
+    background-color: rgba(99, 96, 96, 0.89);
+    color: white;
+}
+
+.back2 {
+    background-color: rgba(180, 175, 175, 0.89);
+}
+
+.back3 {
+    background-color: rgba(255, 255, 255, 0.89);
+}
+
+.back4 {
+    background-color: rgba(180, 175, 175, 0.89);
+}
+
+table {
+    text-align: center;
+}
+
+.img-army {
+    float: left;
+}
+
+.navfooter {
+	background-color: rgb(73, 69, 69);
+	display: flex;
+    
+    justify-content: space-around;
+}
+
+ul {
+    list-style:none;
+}
+
+.navfooter ul li a {
+	color: white;
+    display: flex;
+}
