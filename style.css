@@ -7,7 +7,8 @@ h1 {
 }
 
 span {
-    font-size: 20px;
+    padding-right: 8%;
+    font-size: 40px;
 }
 
 .badge {
@@ -19,7 +20,7 @@ span {
 }
 
 .text-image {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 10%;
 }
 
@@ -57,17 +58,98 @@ table {
 }
 
 .navfooter {
-	background-color: rgb(73, 69, 69);
-	display: flex;
-    
+    background-color: rgb(238, 120, 24);
+    display: flex;
     justify-content: space-around;
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 .navfooter ul li a {
-	color: white;
+    color: white;
     display: flex;
+}
+
+.navbar {
+    background-color: rgb(238, 120, 24);
+    color: rgb(238, 120, 24);
+}
+
+.text-gandalf {
+    position: absolute;
+    top: 20px;
+    left: 75px;
+}
+
+.text-gandalf:hover {
+    top: 140px;
+    left: 45px;
+    display: none;
+}
+
+.gandalf {
+    opacity: 0.3;
+}
+
+.gandalf:hover {
+    opacity: 1;
+}
+
+.text-aragorn {
+    position: absolute;
+    top: 20px;
+    left: 75px;
+}
+
+.aragorn {
+    opacity: 0.3;
+}
+
+.aragorn:hover {
+    opacity: 1;
+}
+
+.text-gimli {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+
+.text-gimli:hover {
+    top: 140px;
+    left: 45px
+}
+
+.text-gimli:hover {
+	display: none;
+}
+
+.gimli {
+    opacity: 0.3;
+}
+
+.gimli:hover {
+    opacity: 1;
+}
+
+.reward {
+    background-color: white;
+    opacity: 0.7;
+    border: 10px solid white;
+    border-radius: 5px;
+}
+.dead {
+    color: #f78031;
+    font-size: 40px;
+}
+
+.number {
+    color: #f78031;
+    font-size: 30px;
+}
+
+.name {
+    color: white;
 }
