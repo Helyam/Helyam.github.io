@@ -68,8 +68,8 @@ hr {
 .img-capture {
     float: right;
     border-radius: 50%;
-    margin-bottom: 10%;
-    width: 17%
+    margin-bottom: 90%;
+    width: 8%
 }
 
 .name1 {
@@ -208,4 +208,12 @@ ul {
 .number {
     color: #f78031;
     font-size: 30px;
+}
+
+.title-grey {
+    color: gray;
+}
+
+.background {
+    background-image: url("/integration_maquette_finale/bg_dark.png")
 }
