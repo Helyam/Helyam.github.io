@@ -1,9 +1,35 @@
+@font-face {
+    font-family: "Aniron";
+    src: url("/Police/Aniron/anicb___.ttf")
+}
+
+@font-face {
+    font-family: "Tengwar";
+    src: url("/Police/Tengwar/tngan.ttf")
+}
+
+@font-face {
+    font-family: "Party business";
+    src: url("/Police/Party\ business/partybusiness.ttf")
+}
+
+.nav-link {
+    font-family: "Aniron";
+    color: antiquewhite;
+}
+
+.nav-color {
+    background-color: #f78031;
+}
+
 h1 {
-    font-size: 30px;
+    font-size: 27px;
+    font-family: "Aniron";
 }
 
 .h1 {
     font-size: 20px;
+    font-family: "Aniron";
 }
 
 span {
@@ -21,15 +47,47 @@ span {
 
 .text-image {
     font-size: 60px;
-    margin-bottom: 10%;
+    margin-bottom: 17%;
+    font-family: "Party business";
 }
 
 hr {
     color: rgb(0, 0, 0)
 }
 
+.card-text1 {
+    font-size: 25px;
+    color: rgba(180, 175, 175, 0.89);
+    font-family: "Party business";
+}
+
+.capture {
+    background-image: url("/integration_maquette_finale/bg_dark.png")
+}
+
 .img-capture {
     float: right;
+    border-radius: 50%;
+    margin-bottom: 10%;
+    width: 17%
+}
+
+.name1 {
+    margin-left: 15%;
+    margin-top: 115%;
+    color: white;
+}
+
+.name2 {
+    margin-left: 15%;
+    margin-top: 100%;
+    color: white;
+}
+
+.name3 {
+    margin-left: 30%;
+    margin-top: 210%;
+    color: white;
 }
 
 .back1 {
@@ -72,11 +130,6 @@ ul {
     display: flex;
 }
 
-.navbar {
-    background-color: rgb(238, 120, 24);
-    color: rgb(238, 120, 24);
-}
-
 .text-gandalf {
     position: absolute;
     top: 20px;
@@ -103,6 +156,10 @@ ul {
     left: 75px;
 }
 
+.text-aragorn:hover {
+    display: none;
+}
+
 .aragorn {
     opacity: 0.3;
 }
@@ -119,11 +176,8 @@ ul {
 
 .text-gimli:hover {
     top: 140px;
-    left: 45px
-}
-
-.text-gimli:hover {
-	display: none;
+    left: 45px;
+    display: none;
 }
 
 .gimli {
@@ -140,16 +194,18 @@ ul {
     border: 10px solid white;
     border-radius: 5px;
 }
+
+.reward:hover {
+    display: none;
+}
+
 .dead {
     color: #f78031;
     font-size: 40px;
+    margin-top: 10%;
 }
 
 .number {
     color: #f78031;
     font-size: 30px;
-}
-
-.name {
-    color: white;
 }
