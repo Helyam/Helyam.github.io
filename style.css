@@ -22,6 +22,20 @@
     background-color: #f78031;
 }
 
+p {
+    font-size: 23px;
+    font-family: "Party business"
+}
+
+.p-white {
+    color: white;
+}
+
+.ij {
+    font-family: "Tengwar";
+    color: orange;
+}
+
 .badge {
     font-family: "Aniron"
 }
